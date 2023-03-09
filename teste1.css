@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+ * {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ropa Sans';
+    font-weight: normal;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+.logo{
+    position: absolute;
+    margin-left: 88%;
+    bottom: 30%;
+    width: 50%;
+    height: 12px;
+    background-color: white;
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
+}
+.nome {
+    position: absolute;
+    width: 63px;
+    height: 25px;
+    bottom: 30%;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    display: flex;
+    color: #777777;
+}
+
+h2{
+  position: absolute;
+  width: 38px;
+  height: 22px;
+  left: 10%;
+  bottom: 30%;
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  
+  color: #AAAAAA;
+}
+
+.img_1{
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    width: 91%;
+    position: relative;
+}
+
+.background_buttom_left{
+    position: absolute;
+    width: 6.2%;
+    margin-top: -26%;
+    margin-left: 6%;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.background_buttom_rigth{
+    position: absolute;
+    width:6.2%;
+    margin-top: -26%;
+    margin-left: 89%;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.left_buttom{
+    position: absolute;
+    color: aliceblue;
+    margin-top: -24.4%;
+    margin-left: 8%;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.rigth_buttom{
+    position: absolute;
+    color: aliceblue;
+    margin-top: -24.4%;
+    margin-left: 91.4% ;
+    cursor: pointer;
+    text-align: center;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_2 {
+    width: 100%;
+}
+.caixa_1{
+    overflow-wrap: break-word;
+    background-color: #c3b8b8;
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+}
+.img_3 {
+    width: 100%;
+}
+.caixa_2{
+    overflow-wrap: break-word;
+    background-color: #c3b8b8;
+    width: 30%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.info_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.status {
+    margin-top: 2%;
+    background-color: #51D275;
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    font-size: 100% ;
+    margin-right: 6%;
+    border-radius: 20.5vh;
+}
+
+.preco {
+    color: #888888;
+    font-size: 100%;
+    text-align: left;
+  }
+
+.caixa_1>h3{
+    color: #555535;
+    text-align: center;
+    margin-left: 6.1%;
+    margin-right: 6.1%;
+    margin-bottom: 4%;
+    margin-top: 2.5%;
+    font-size: 100%;
+}
+.caixa_2>h3{
+    color: #555535;
+    text-align: center;
+    margin-left: 6.1%;
+    margin-right: 6.1%;
+    margin-bottom: 4%;
+    margin-top: 2.5%;
+    font-size: 100%;
+}
+
+.vendido {
+    color: white;
+    background-color: rgba(237, 114, 38, 0.829);
+    width: 25%;
+    height: 15px;
+    font-size: 70% ;
+    text-align: center;
+    border-radius: 20.5vh;
+  }
+  
