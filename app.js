@@ -8,3 +8,5 @@ app.get("/",(req,res) =>{
     console.log('acessado')
 })
 app.listen(3000)
+
+// SÓ FUNCIONA APÓS RODAR O CÓDIGO COM O EXPRESS. DO CONTRÁRIO TEM QUE ALTERAR O CAMINHO ADICIONANDO A PASTA PUBLIC
